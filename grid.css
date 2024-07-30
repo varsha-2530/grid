@@ -1,0 +1,63 @@
+section{
+    display: grid;
+    gap: 2px;
+    height: 400px;
+    width: 100px auto;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 100px 100px auto;
+}
+
+div{
+    /* background-color: blueviolet; */
+    border: 1px solid black;
+}
+
+.seven{
+background-color: gray;
+}
+.two{
+    background-color: blue;
+}
+.three{
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-color: yellow;
+}
+
+.four{
+    background-color: aqua;
+}
+
+.one{
+    grid-row: 1/6;
+    background-color: brown;
+}
+
+.five{
+    background-color: green;
+}
+.six{
+    background-color: lawngreen;
+}
+
+.vv{
+    background-color: lightcoral;
+}
+.aa{
+    background-color: khaki;
+}
+.rr{
+    background-color: hotpink;
+
+}
+
+.ss{
+    background-color: orangered;
+}
+
+.hh
+{
+    background-color: yellowgreen;
+}
+
+
